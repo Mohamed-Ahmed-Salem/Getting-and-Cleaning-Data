@@ -1,0 +1,24 @@
+This is codeBook to the Cleaning and Getting Data project.
+
+Theres is a quick refrence to all the variables and their declaration if needed.
+
+1- train_x: data frame of the training set imported from X_train.txt
+2- train_y: data frame of the training labels imported from y_train.txt.
+3- subject_train: data frame of the training labels imported from subject_train.txt.
+(Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.)
+
+4- test_x: data frame of the testing set imported from X_test.txt.
+5- test_y: data frame of the tseting labels imported from y_test.txt.
+6- subject_test: data frame of the tseting labels imported from subject_train.txt.
+
+7- X: rbind of the trainig and testind data.
+8- Y: rbind of the trainig and testind labels.
+9- S: rbind of the subject_train and subject_test.
+
+10- indices_of_good_features: featurestha tcontains (std or mean).
+11- activities: data frame of the 6 activities.WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+12- cleaned: rbind of (X, y, S).
+13- result: we have 30 subjects and 6 activities.
+            30*6=180
+            result is the first 180 rows in "cleaned".
